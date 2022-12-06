@@ -14,13 +14,14 @@
 ------------Filter-------------------
 */
 
-// const arr2 = [5, 1, 3, 2, 6];
+const arr2 = [5, 1, 3, 2, 6];
 
-// function isOdd(item) {
-//   return item % 2 != 0;
-// }
-// const filterOdd = arr2.filter(isOdd);
-// console.log(filterOdd);
+function isOdd(item) {
+  return item % 2 != 0;
+}
+const filterOdd = arr2.filter(isOdd);
+console.log(filterOdd);
+console.log("original", arr2);
 
 /*
 -------------------------------------------
@@ -123,11 +124,11 @@ const users = [
 
 /*----------------------------------*/
 
-console.log(
-  users.reduce((acc, curr) => {
-    if (curr.age < 30) {
-      acc.push(curr.fname);
-    }
-    return acc;
-  }, [])
-);
+// console.log(
+//   users.reduce((acc, curr) => {
+//     if (curr.age < 30) {
+//       acc.push(curr.fname);
+//     }
+//     return acc;
+//   }, [])
+// );
