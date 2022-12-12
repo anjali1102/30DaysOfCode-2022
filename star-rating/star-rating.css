@@ -1,0 +1,19 @@
+.fill-star {
+  color: yellow;
+}
+
+.star {
+  border: 1px solid black;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.star-container {
+  font-size: 4rem;
+}
