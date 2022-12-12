@@ -1,0 +1,36 @@
+.container {
+  border: 1px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  width: 400px;
+  /* border: 1px solid purple; */
+}
+
+.row {
+  /* border: 2px solid purple; */
+  /* height: 40px;
+  width: 40px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 2px solid rgb(89, 89, 37);
+  cursor: pointer;
+}
+
+.green-color {
+  background-color: green;
+}
